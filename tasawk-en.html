@@ -29,7 +29,7 @@
 
 <body style="font-family: Arial;">
     <div class="invioce" style="width: 1005px;
-     margin: 60px auto;
+     margin: 30px auto 90px; position: relative;
      font-size: 18px; font-weight: bold; color: #27324e;">
         <img src="logo.png" style="margin-bottom: 23px;">
         <div class="header" style="display: flex; align-items: flex-start; justify-content: space-between;">
@@ -80,7 +80,8 @@
             </table>
         </div>
 
-        <table class="invoice-desc" style="width: 100%; text-align: left; border-collapse: collapse; margin-top: 21px;">
+        <table class="invoice-desc"
+            style="font-weight: normal; width: 100%; text-align: left; border-collapse: collapse; margin-top: 21px;">
             <tr>
                 <th style="width: 113px; background-color: #27324e; color: #fff; font-size: 20px; font-weight: bold;">
                     #</th>
@@ -90,7 +91,7 @@
                 <th style="width: 175px; background-color: #27324e; color: #fff; font-size: 20px; font-weight: bold;">
                     UNIT PRICE</th>
                 <th style="width: 183px; background-color: #27324e; color: #fff; font-size: 20px; font-weight: bold;">
-                    AMOUNT</th>
+                    TOTAL</th>
             </tr>
             <tr>
                 <td>1</td>
@@ -106,16 +107,16 @@
         <div class="tatal" style="width: 467px; margin-right: auto; margin-top: 20px;">
             <div
                 style="border-bottom: 1px solid #415382; display: flex; align-items: center; justify-content: space-between;  padding: 12px 30px 15px;">
-                <span>SUBTOTAL</span>
+                <span style="font-weight: normal;">SUBTOTAL</span>
                 <span style="font-weight: bold; font-size: 20px;">SAR 40,000 </span>
             </div>
             <div
                 style="border-bottom: 1px solid #415382; display: flex; align-items: center; justify-content: space-between;  padding: 12px 30px 15px;">
-                <span> VAT (%5)</span>
+                <span style="font-weight: normal;"> VAT (%5)</span>
                 <span style="font-weight: bold; font-size: 20px;">SAR 2000 </span>
             </div>
             <div style=" display: flex; align-items: center; justify-content: space-between;  padding: 12px 30px 15px;">
-                <span>TOTAL</span>
+                <span style="font-weight: normal;">TOTAL</span>
                 <span style="font-weight: bold; font-size: 20px;">SAR 42,000 </span>
             </div>
         </div>
@@ -125,11 +126,14 @@
                 style="display:inline-block;border-bottom: 2px solid #27324e; margin: 0; font-weight: bold; font-size: 22px;">
                 Payment TERMS</h2>
             <ol style="padding: 25px 20px 0; margin: 0;">
-                <li style="margin-bottom: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nisi?
+                <li style="margin-bottom: 15px; font-weight: normal;">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Eum, nisi?
                 </li>
-                <li style="margin-bottom: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nisi?
+                <li style="margin-bottom: 15px; font-weight: normal;">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Eum, nisi?
                 </li>
-                <li style="margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, nisi?
+                <li style="margin-bottom: 10px; font-weight: normal;">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Eum, nisi?
                 </li>
             </ol>
         </div>
@@ -163,9 +167,10 @@
             </table>
         </div>
 
-        <h3 style="margin:30px 25px 0;font-size: 22px; font-weight: bold;">Sales Manager</h3>
+        <h3 style="margin:30px 25px 20px;font-size: 22px; font-weight: bold;">Sales Manager</h3>
         <p style="margin:0 25px; font-size: 10px; font-weight: bold;">
             ......................................................</p>
+        <img src="stamp.png" style="position: absolute; bottom: 0; right: 38px;">
     </div>
 </body>
 
